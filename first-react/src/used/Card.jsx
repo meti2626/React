@@ -8,8 +8,8 @@ function Card()
       <div className="card">
            <img className="profile-pic" src={Profilepic}  alt="profile pic"></img>
 
-           <h2>Bro Code</h2>
-           <p>Learn React with Bro Code</p>
+           <h2 className="card-title">Bro Code</h2>
+           <p className="card-description">Learn React with Bro Code</p>
       </div>
 
    );
