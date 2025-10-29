@@ -1,5 +1,6 @@
 //conditional rendering = allows you to control what gets rendered in your application  based on certain conditins (sjow,hide,or change )
 
+
 import List from './List.jsx';
 
 function App() {
@@ -22,11 +23,10 @@ function App() {
 return(
  
    <>
-         <List  items={fruits} category="Fruits" />
-          <List  items={vegetable}  category="vegetables"/> 
-  </>
-     
+      {fruits.length > 0 ?   <List  items={fruits} category="Fruits" />  : null }
+      {vegetable.length > 0 ?   <List  items={vegetable} category="Vegetables" />  : null }
 
+      </>
  );
 }
 
