@@ -20,6 +20,7 @@ function List(props){
 
      
   //  const lowCalFruits = fruits.filter(fruit => fruit.cal>=100);
+//conditional rendering = allows you to control what gets rendered in your application  based on certain conditins (sjow,hide,or change )
 
    const category = props.category;
 
