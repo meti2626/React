@@ -1,11 +1,11 @@
 
-import Macomponent from "./Macomponent";
 
+import ColorPicker from "./ColorPicker.jsx"
 
 function App() {
    return (
       <>
-         <Macomponent />
+         <ColorPicker />
       </>
    );
 }
