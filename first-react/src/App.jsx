@@ -1,11 +1,11 @@
 
-import Counter from "./counter";
+import Macomponent from "./Macomponent";
 
 
 function App() {
    return (
       <>
-         <Counter />
+         <Macomponent />
       </>
    );
 }
