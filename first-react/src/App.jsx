@@ -1,16 +1,15 @@
 
-//updater Function = A function    
 
-
-import ColorPicker from "./ColorPicker.jsx"
+// App.jsx
+import React from "react";
+import ObjectComponent from "./ObjectComponent";
 
 function App() {
-   return (
-      <>
-      
-      </>
-   );
+  return (
+    <div>
+      <ObjectComponent />
+    </div>
+  );
 }
 
-export default App
-
+export default App;
