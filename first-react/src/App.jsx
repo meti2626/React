@@ -1,13 +1,11 @@
 
 
-// App.jsx
-import React from "react";
-import ObjectComponent from "./ObjectComponent";
+import ListComponent from "./listComponent";
 
 function App() {
   return (
     <div>
-      <ObjectComponent />
+      <ListComponent />
     </div>
   );
 }
