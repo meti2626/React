@@ -19,7 +19,7 @@ function ListComponent() {
          
         function handleRemoveFood(index) {
             
-          setFoods(foods.filter ((_ , i) => i !== index))
+         // setFoods(foods.filter ((_ , i) => i !== index))  ----- see it further
 
         }
 

@@ -1,13 +1,14 @@
 
 
-import ListComponent from "./listComponent";
+import ArrayObject from "./ArrayObject";
 
 function App() {
   return (
     <div>
-      <ListComponent />
+      <ArrayObject />
     </div>
   );
 }
+
 
 export default App;
