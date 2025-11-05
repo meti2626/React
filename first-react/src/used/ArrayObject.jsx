@@ -28,9 +28,7 @@ function ArrayObject ()
 
    }
 
-
-
-   function handleYearChange(event){
+    function handleYearChange(event){
 
     setCarYear(event.target.value)
     

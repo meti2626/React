@@ -1,14 +1,14 @@
 
 
-import ArrayObject from "./ArrayObject";
+import ToDoList from "./ToDoList";
 
 function App() {
   return (
-    <div>
-      <ArrayObject />
-    </div>
+
+      <ToDoList />
+   
   );
 }
 
 
-export default App;
+export default App
