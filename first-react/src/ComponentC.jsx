@@ -2,14 +2,15 @@
 //useContext () =   React hook that allows sharing values with out props
 
 
+import ComponentD from "./ComponentD";
 
-
-  function ComponentA()
+  function ComponentC()
   {
 
       return (
           <div className="box">
-            <h1>ComponentA</h1>
+            <h1>ComponentC</h1>
+            <ComponentD />
           </div>
 
       )
@@ -17,4 +18,4 @@
 
   }
 
-  export default ComponentA;
+  export default ComponentC;
