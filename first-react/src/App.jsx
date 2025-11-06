@@ -1,14 +1,14 @@
 
 
-import ToDoList from "./ToDoList";
+import ComponentA from "./ComponentA";
 
 function App() {
-  return (
+  return (  
 
-      <ToDoList />
+    <ComponentA />
    
   );
 }
 
 
-export default App
+export default App;
