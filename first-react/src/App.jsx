@@ -1,11 +1,18 @@
-
-
-import ComponentA from "./ComponentA";
+import About from "./About.jsx";
+import Home from "./Home.jsx";
+import {Routes, Route} from "react-router"
 
 function App() {
   return (  
 
-    <ComponentA />
+   <div>
+    <h1>React Router Setup</h1>
+    <Routes>
+       <Route path="/" element={<Home/>} />
+      <Route path="/about" element={<About/>}/>
+    </Routes>
+
+   </div>
    
   );
 }

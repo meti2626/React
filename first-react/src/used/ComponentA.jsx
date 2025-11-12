@@ -1,10 +1,10 @@
 import React , {useState , createContext} from 'react';
-
+import ComponentB from './ComponentB';
 //useContext () =   React hook that allows sharing values with out props
 
 export const UserContext = createContext();
 
-import ComponentB from "./ComponentB";
+
 
   function ComponentA()
   {
