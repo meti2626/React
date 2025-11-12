@@ -1,13 +1,23 @@
-
+import './Navbar.css'
 import React from 'react'
 import { Link } from "react-router";
 
 const Navbar = () => {
   return (
-    <div>
-     <h3><Link to="/">Home</Link></h3>
-  <h3><Link to="/about">About</Link></h3>
-  <h3><Link to="/login">LogIn</Link></h3>
+    <div  className='header'>
+    <div><Link className='link' to="/"><h2>Logo</h2></Link></div>
+      
+      <div>
+        <ul>
+          <li><Link className='link'   to="/">Home</Link></li>
+          <li><Link className='link'   to="/about">About</Link></li>
+          <li><Link className='link'   to="/login">LogIn</Link></li>
+        </ul>
+
+
+      </div>
+
+
     </div>
   )
 }

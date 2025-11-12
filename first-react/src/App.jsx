@@ -4,6 +4,7 @@ import LogIn from "./LogIn.jsx";
 import {Routes, Route} from "react-router"
 import { Link } from "react-router";
 import Navbar from "./Navbar.jsx";
+import ErrorPage from "./ErrorPage.jsx";
 
 function App() {
   return (  
@@ -14,6 +15,7 @@ function App() {
        <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>}/>
         <Route path="/login" element={<LogIn/>}/>
+        <Route path="/*" element={<ErrorPage />}/>
     </Routes>
 
    </div>
