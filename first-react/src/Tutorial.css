@@ -1,0 +1,18 @@
+.tutor ul{
+  list-style-type:none;
+  display: flex;
+  justify-content: cent
+  er;
+ 
+}
+.tutor ul li{
+    margin: 10px;
+    font-size: 20px;
+   
+}
+
+.link
+{
+  text-decoration: none;
+
+}
