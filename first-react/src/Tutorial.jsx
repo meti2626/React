@@ -10,10 +10,10 @@ const Tutorial = () => {
 
       <ul>
         
-        <li><Link className='link' to="/react">ReactJs</Link></li>
-        <li><Link className='link' to="/js">JavaScript</Link></li>
+        <li><Link className='link' to="react">ReactJs</Link></li>
+        <li><Link className='link' to="js">JavaScript</Link></li>
         
-        <li><Link className='link' to="/node">Nodejs</Link></li>
+        <li><Link className='link' to="node">Nodejs</Link></li>
       </ul>
         <Outlet/>
      

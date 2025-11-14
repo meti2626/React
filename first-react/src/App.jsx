@@ -2,8 +2,7 @@ import About from "./About.jsx";
 import Home from "./Home.jsx";
 import LogIn from "./LogIn.jsx";
 import Tutorial from "./Tutorial.jsx";
-import {Routes, Route, Navigate} from "react-router"
-import { Link } from "react-router";
+import { Routes, Route, Navigate } from "react-router";
 import Navbar from "./Navbar.jsx";
 import ErrorPage from "./ErrorPage.jsx";
 import JsTube from './JsTube'
@@ -21,12 +20,12 @@ function App() {
         <Route path="/about" element={<About/>}/>
         <Route path="/login" element={<LogIn/>}/>
 
-        <Route path="/tutorial" element={<Tutorial/>} >
-            <Route path='/react'  element= {<ReactTube/>} />
-            <Route path='/js'  element={<JsTube/>} />
-            
-            <Route path='/node' element={<NodeJs/>}/>
-        </Route>
+      <Route path="/tutorial" element={<Tutorial/>}>
+            <Route path="react" element={<ReactTube/>} />
+            <Route path="js" element={<JsTube/>} />
+            <Route path="node" element={<NodeJs/>} />
+      </Route>
+
 
          
         {/* <Route path="/*" element={<Navigate to="/"/>}/> */}
