@@ -1,6 +1,6 @@
 import './Tutorial.css'
 import React from 'react'
-import { Link, Outlet } from 'react-router'
+import { Link, Outlet , NavLink} from 'react-router'
 
 const Tutorial = () => {
   return (
@@ -10,11 +10,12 @@ const Tutorial = () => {
 
       <ul>
         
-        <li><Link className='link' to="react">ReactJs</Link></li>
-        <li><Link className='link' to="js">JavaScript</Link></li>
+        <li><NavLink  to="react" className='link'>ReactJs</NavLink></li>
+        <li><NavLink  to="js"  className='link'>JavaScript</NavLink></li>
         
-        <li><Link className='link' to="node">Nodejs</Link></li>
+        <li><NavLink  to="node" className='link'>Nodejs</NavLink></li>
       </ul>
+
         <Outlet/>
      
     </div>
@@ -23,3 +24,5 @@ const Tutorial = () => {
 }
 
 export default Tutorial
+
+// Nested Navigation
