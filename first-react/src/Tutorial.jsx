@@ -4,7 +4,7 @@ import { Link, Outlet , NavLink} from 'react-router'
 
 const Tutorial = () => {
   return (
-
+  
    <div className='tutor' style={{textAlign : 'center'}}>
       <h1>Tutorials</h1>
 
@@ -16,9 +16,10 @@ const Tutorial = () => {
         <li><NavLink  to="node" className='link'>Nodejs</NavLink></li>
       </ul>
 
-        <Outlet/>
+       <Outlet/>  
      
     </div>
+
 
   )
 }

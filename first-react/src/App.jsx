@@ -1,6 +1,7 @@
 import About from "./About.jsx";
 import Home from "./Home.jsx";
 import LogIn from "./LogIn.jsx";
+
 import Tutorial from "./Tutorial.jsx";
 import { Routes, Route, Navigate } from "react-router";
 import Navbar from "./Navbar.jsx";
@@ -14,22 +15,28 @@ function App() {
   return (  
           
    <div>
-    <Navbar />
+    {/* <Navbar /> */}
+    
     <Routes>
+      
+      <Route element={<Navbar/>}>
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/login" element={<LogIn/>}/>
-
-      <Route path="/tutorial" element={<Tutorial/>}>
+        <Route path="/*" element={<ErrorPage/>}/>
+       
+        <Route path="/tutorial" element={<Tutorial/>}>
             <Route path="react" element={<ReactTube/>} />
             <Route path="js" element={<JsTube/>} />
             <Route path="node" element={<NodeJs/>} />
       </Route>
+     </Route>
+      
 
 
          
         {/* <Route path="/*" element={<Navigate to="/"/>}/> */}
-        <Route path="/*" element={<ErrorPage/>}/>
+        
 
     </Routes>
 

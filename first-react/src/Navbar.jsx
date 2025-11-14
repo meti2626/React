@@ -1,9 +1,11 @@
 import './Navbar.css'
 import React from 'react'
-import { Link,NavLink } from "react-router";
+import { Link,NavLink, Outlet } from "react-router";
 
 const Navbar = () => {
-  return (
+return (
+
+  <div>
     <div  className='header'>
     <div><Link className='link' to="/"><h2>Logo</h2></Link></div>
       
@@ -20,6 +22,8 @@ const Navbar = () => {
 
 
     </div>
+    <Outlet/>
+ </div> 
   )
 }
 
