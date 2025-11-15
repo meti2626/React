@@ -15,6 +15,7 @@ return (
           <li><NavLink className='link'   to="/about">About</NavLink></li>
           <li><NavLink className='link'   to="/login">LogIn</NavLink></li>
            <li><NavLink className='link'   to="/tutorial">Tutorial</NavLink></li>
+          <li><NavLink className='link'   to="/product">Product</NavLink></li>
         </ul>
 
 

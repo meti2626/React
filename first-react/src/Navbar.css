@@ -1,16 +1,17 @@
 
 .header{
      display: flex;
-
      justify-content: space-between;
      background-color: antiquewhite;
      padding: 0 10px;
+        align-items: center;
 }
 .header ul{
    list-style-type: none;
    display: flex;
-   width: 200px;
+   width: 350px;
    justify-content:space-evenly ;
+  
 }
 body{
     margin:0;
@@ -20,9 +21,7 @@ body{
 .link{
     margin: 10px;
     text-decoration: none;
-
 }
-
 
 .active{
     border:  2px solid transparent;
@@ -32,3 +31,4 @@ body{
     font-weight: bold;
     color: #000;
 }
+

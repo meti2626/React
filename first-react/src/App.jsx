@@ -9,7 +9,7 @@ import ErrorPage from "./ErrorPage.jsx";
 import JsTube from './JsTube'
 import NodeJs from './NodeJs'
 import ReactTube from './ReactTube'
-
+import Products from './Products.jsx'
 
 function App() {
   return (  
@@ -24,12 +24,14 @@ function App() {
         <Route path="/about" element={<About/>}/>
         <Route path="/login" element={<LogIn/>}/>
         <Route path="/*" element={<ErrorPage/>}/>
-       
+         
         <Route path="/tutorial" element={<Tutorial/>}>
             <Route path="react" element={<ReactTube/>} />
             <Route path="js" element={<JsTube/>} />
             <Route path="node" element={<NodeJs/>} />
       </Route>
+      <Route path="/product" element={<Products/>}/>
+      
      </Route>
       
 
